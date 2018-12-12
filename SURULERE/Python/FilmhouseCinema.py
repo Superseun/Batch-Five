@@ -1,8 +1,11 @@
+#ADEGBITE SEUN SAMSON
+#superseun99@gmail.com
+
 print("Welcome to Superseun Cinema")
 #SELECT THE LETTER WITH THE CORRECT OPTION
 ans = "yes"
 while ans == "yes":
-    Location = input ("Select a lettet in the option to view the movie of your choice: \n(a)FANTASTIC BEASTS \n(b)WIDOWS \n(c)ROBIN HOOD \n(d)KING OF BOYS \n(e)CREED II \n(f)SPIDER-MAN: Into the Spider-Verse \n(g)AQUAMAN \n")
+    Location = input ("Select a letter in the option to view the movie of your choice: \n(a)FANTASTIC BEASTS \n(b)WIDOWS \n(c)ROBIN HOOD \n(d)KING OF BOYS \n(e)CREED II \n(f)SPIDER-MAN: Into the Spider-Verse \n(g)AQUAMAN \n")
     import datetime
     a = datetime.datetime.today().weekday()
     if a == 0:
